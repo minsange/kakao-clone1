@@ -6,9 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Chat</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	<header>
+<body class="body-chat">
+	<header class="top-header chat-header">
 	<div class="header__top">
 		<div class="header__column">
 			<i class="fa fa-fighter-jet" aria-hidden="ture"></i>
@@ -42,32 +43,35 @@
 		<div class="date-divider">
 			<span class="date-divider__text">Wednesday, August 2, 2017</span>
 		</div>
-		<div class="chat__message chat__message-from-me">
-			<span class="chat__message-time">17:55</span>
-			<span class="chat__message-body">
-				Hello! This is a test message.
-			</span>
-		</div>
-		<div class="chat__message chat__message--to-me">
-			<img src="images/avatar.jpg" class="chat__message-avatar">
-			<div class="chat__message-center">
-				<h3 class="chat__message-username">Lyun</h3>
+			<div class="chat__message chat__message-from-me">
+				<span class="chat__message-time">17:55</span>
 				<span class="chat__message-body">
-					And this is a answer.
+				Hello! This is a test message.
 				</span>
 			</div>
-			<span class="chat__message-time">19:35</span>
-		</div>
+			<div class="chat__message chat__message--to-me">
+					<img src="images/avatar.jpg" class="chat__message-avatar">
+				<div class="chat__message-center">
+					<h3 class="chat__message-username">Lyun</h3>
+					<span class="chat__message-body">
+						And this is a answer.
+					</span>
+				</div>
+					<span class="chat__message-time">19:35</span>
+			</div>
 	</main>
 	<div class="type-message">
-		<i class="fa fa-plus fa-2x"></i>
+		<i class="fa fa-plus fa-lg"></i>
 		<div class="type-message__input">
 			<input type="text">
-			<i class="fa fa-smile-o"></i>
+			<i class="fa fa-smile-o fa-lg"></i>
 			<span class="record-message">
-				<i class="fa fa-microphone"></i>
+				<i class="fa fa-microphone fa-lg"></i>
 			</span>
 		</div>
+	</div>
+	<div class="bigscreentext">
+		<span>Please make your screen smaller</span>
 	</div>
 </body>
 </html>
